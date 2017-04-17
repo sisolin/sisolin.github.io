@@ -1,0 +1,82 @@
+html, button, input, select, textarea,
+.pure-g [class *= "pure-u"] {
+  font-family: 'Lato', sans-serif;
+}
+
+.main-menu {
+  background-color: #4F8699;
+}
+
+.main-menu-link {
+  color: #fff;
+}
+
+h2 {
+  color: #4F8699;
+  text-transform: uppercase;
+}
+
+.main-menu-link:hover {
+  color: #333;
+}
+
+.content {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.banner {
+  background: transparent url(images/Pneumatic_Cylinders-all.jpg) 0 0 no-repeat fixed;
+  text-align: center;
+  background-size: cover;
+  height: 400px;
+  width: 100%;
+  margin-bottom: 3em;
+  display: table;
+}
+
+.banner-head {
+  display: table-cell;
+  vertical-align: middle;
+  margin-bottom: 0;
+  font-size: 2em;
+  color: white;
+  color: #515151;
+  font-weight: 500;
+  text-shadow: 0 1px 1px black;
+}
+
+.pricing-table-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.product-list{
+  padding: 1em;
+}
+
+.product-list-table{
+  width: 100%;
+}
+
+.footer {
+  background-color: #515151;
+  color:#fff;
+  height: 10em;
+}
+
+.footer-content {
+  max-width: 980px;
+  margin: 0 auto;
+  margin-top: 1em;
+}
+
+.footer-block{
+  text-align: right;
+}
+
+.footer-link{
+  color: #fff;
+}
