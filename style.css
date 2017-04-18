@@ -1,6 +1,8 @@
 html, button, input, select, textarea,
 .pure-g [class *= "pure-u"] {
-  font-family: 'Lato', sans-serif;
+  color: #777;
+  font-size: 18px
+  font-weight: 200;
 }
 
 .main-menu {
@@ -10,7 +12,11 @@ html, button, input, select, textarea,
 .main-menu-link {
   color: #fff;
 }
-
+h1, h2, h3, h4 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 200;
+  font: rgb(75, 75, 75);
+}
 h2 {
   color: #4F8699;
   text-transform: uppercase;
@@ -26,7 +32,8 @@ h2 {
 }
 
 .banner {
-  background: transparent url(images/Pneumatic_Cylinders-all.jpg) 0 0 no-repeat fixed;
+  /*background: transparent url(images/Pneumatic_Cylinders-all.jpg) 0 0 no-repeat fixed;*/
+  background-color: #eee;
   text-align: center;
   background-size: cover;
   height: 400px;
@@ -71,12 +78,20 @@ h2 {
   max-width: 980px;
   margin: 0 auto;
   margin-top: 1em;
+  padding: 0 1em;
 }
 
+.footer-content p{
+  color: #fff;
+}
 .footer-block{
   text-align: right;
 }
 
 .footer-link{
   color: #fff;
+}
+
+.panel {
+  padding: 0 1em;
 }
