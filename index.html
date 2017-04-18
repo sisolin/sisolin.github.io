@@ -19,15 +19,22 @@
   <title>Home | Sanskriti Industrial Solutions</title>
 </head>
 <body>
-  <div class="pure-menu pure-menu-horizontal main-menu">
-    <a href="#" class="pure-menu-heading pure-menu-link main-menu-link">SISolutions</a>
-    <ul class="pure-menu-list">
-      <li class="pure-menu-item"><a href="#" class="pure-menu-link main-menu-link">Home</a></li>
-      <li class="pure-menu-item"><a href="#" class="pure-menu-link main-menu-link">Product</a></li>
-      <li class="pure-menu-item"><a href="#" class="pure-menu-link main-menu-link">About us</a></li>
+  <div class="pure-g" id="top">
+    <div class="pure-u-1">
+      <div class="pure-menu main-menu pure-menu-horizontal">
+        <a href="#" class="pure-menu-heading main-menu-link">SISolutions</a>
+        <ul class="pure-menu-list" id="menu">
+          <li class="pure-menu-item"><a href="#" class="pure-menu-link main-menu-link">Home</a></li>
+          <li class="pure-menu-item"><a href="#" class="pure-menu-link main-menu-link">Product</a></li>
+          <li class="pure-menu-item"><a href="#" class="pure-menu-link main-menu-link">About us</a></li>
+          <li class="pure-menu-item"><a href="#" class="pure-menu-link main-menu-link">Contact</a></li>
+        </div>
+        <a id="menu-icon" href="javascript:void(0);" onclick="responsiveMenu()">&#9776;</a>
     </div>
+  </div>
+
     <div class="banner">
-      <h1 class="banner-head top">
+      <h1 class="banner-head">
         Good quality<br>
         Hydraulic and Pneumatic
       </h1>
@@ -147,5 +154,17 @@
       </div>
     </div>
   </div>
+
+  <script type="text/javascript">
+  /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+function responsiveMenu() {
+  var x = document.getElementById("menu-head");
+  if (x.className === "pure-menu main-menu pure-menu-horizontal") {
+      x.className = "pure-menu main-menu";
+  } else {
+      x.className += " pure-menu-horizontal";
+  }
+}
+  </script>
 </body>
 </html>

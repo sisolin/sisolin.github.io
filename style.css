@@ -1,8 +1,7 @@
 html, button, input, select, textarea,
 .pure-g [class *= "pure-u"] {
   color: #777;
-  font-size: 18px
-  font-weight: 200;
+  font-weight: 100;
 }
 
 .main-menu {
@@ -12,6 +11,26 @@ html, button, input, select, textarea,
 .main-menu-link {
   color: #fff;
 }
+
+#menu-icon {
+  position: absolute;
+  top: 5px;
+  right: 1em;
+  color: #fff;
+  text-decoration: none;
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+
+  .pure-menu-horizontal .pure-menu-item {display: none;}
+
+  #menu-icon{
+    display: block;
+  }
+
+}
+
 h1, h2, h3, h4 {
   font-family: 'Raleway', sans-serif;
   font-weight: 200;
